@@ -85,7 +85,7 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>
-                                com.github.voxxin.davoquotesbot/com.github.voxxin.davoquotesbot.HelloApplication
+                                com.github.voxxin.davoquotesbot.davoQuotesBot
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
