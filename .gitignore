@@ -39,3 +39,7 @@ build/
 
 ## DoteNV ###
 .env
+.env
+.idea/discord.xml
+.env
+.env

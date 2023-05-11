@@ -9,7 +9,7 @@ public class davoCommands extends ListenerAdapter {
     @Override
     public void onSlashCommandInteraction(SlashCommandInteractionEvent event) {
         String command = event.getName();
-        if (!command.equals("davo")) return;
+        if (!command.equals("davo") && !command.equals("catherine")) return;
 
         event.reply(String.valueOf(databaseManager.quotesArray.get((int) Math.floor(Math.random()*databaseManager.quotesArray.size())))).queue();
     }

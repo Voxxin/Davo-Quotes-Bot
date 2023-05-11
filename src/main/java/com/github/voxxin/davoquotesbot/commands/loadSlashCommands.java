@@ -19,6 +19,7 @@ public class loadSlashCommands extends ListenerAdapter {
 
         //Davo Command
         davoCommand.add(Commands.slash("davo", "Gives you a random davo quote!"));
+        davoCommand.add(Commands.slash("catherine", "Gives you a random catherine quote!"));
         davoCommand.add(Commands.slash("size", "size of davo qyuotes bot!"));
 
         //Find Command
